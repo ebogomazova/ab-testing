@@ -1,10 +1,4 @@
-# ab-testing-projects
-This repository contains my projects on A/B testing analysis. Each project includes the analysis of experimental data, the selection of appropriate statistical tests, and conclusions on the effectiveness of implemented changes.
-
-Данный репозиторий содержит проекты по A/B-тестированию, направленные на применение статистических методов для оценки влияния нововведений на ключевые метрики и формирования рекомендаций по их внедрению на основе полученных результатов.
-
-
-## Проект 1: A/B-тестирование алгоритма рекомендаций постов
+## A/B-тестирование алгоритма рекомендаций постов
 
 ### Задачи:
 *   Сравнить CTR в двух группах (контрольной и экспериментальной) с использованием различных статистических методов: t-тест, t-тест на сглаженном CTR, тест Манна-Уитни, Пуассоновский бутстреп, t-тест и тест Манна-Уитни поверх бакетного преобразования.
@@ -27,5 +21,3 @@ This repository contains my projects on A/B testing analysis. Each project inclu
 *  **Инструменты:** Python (Pandas, NumPy, SciPy, Statsmodels)
 *  **Источники данных:** Данные для анализа были получены из системы управления базами данных (СУБД) ClickHouse.
 *  **Код проекта:** Содержится в файле Jupyter Notebook (`ab-test_project1.ipynb`)
-
-
